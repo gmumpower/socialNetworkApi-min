@@ -21,7 +21,7 @@ app.use("*", (req, res) => {
 
 const startApp = async () => {
   await mongoose.connect(
-    process.env.MONGODB_URI || "mongodb://localhost/social-network-api",
+    process.env.MONGODB_URI || "mongodb://localhost/Social-Network-Api",
     {
       // useFindAndModify: false,
       useNewUrlParser: true,
