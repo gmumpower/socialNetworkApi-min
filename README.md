@@ -17,13 +17,18 @@ In mimicry of a social network, this gives limited insight on how those infrastr
 
 ## Usage
 -Clone the repo https://github.com/gmumpower/socialNetworkApi-min
+
 -If you dont have it already, download MongoDB and set it up for a server
+
 -Install dependencies in the commandline including
   -mongoose
   -dontenv
   -express
+  
 -npm i into the commandline to make sure you have the correct depends
+
 -npm start into the commandline and once it had started, it will start on your localhost:3001(or otherwise changed port)
+
 -Then use Insomnia or Postman application to register your requests and enjoy!
 
 
